@@ -82,7 +82,7 @@ address {
   font-style: normal;
 }
 
-.filter, .subscription, .clients__link, .works__overlay, .benefits__icon, .modal__close-btn, .socials__link, .socials {
+.filter, .subscription, .clients__link, .works__overlay, .benefits__icon, .order-form__check-label, .modal__close-btn, .socials__link, .socials {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -290,14 +290,11 @@ address {
 }
 
 .order-form__check-label {
-  display: block;
-  text-align: center;
   margin-bottom: 30px;
   line-height: 1.71;
 }
 
 .order-form__check-icon {
-  vertical-align: middle;
   margin-right: 8px;
   border: 2px solid var(--checkbox-border-color);
   border-radius: 2px;
